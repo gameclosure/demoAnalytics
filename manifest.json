@@ -1,0 +1,27 @@
+{
+  "appID": "6f2bacd384d14e9b8162a2e4b1e9b411",
+  "dependencies": {
+    "devkit-core": "https://github.com/gameclosure/devkit-core#v2.0.13",
+    "devkit-amplitude": "https://github.com/gameclosure/amplitude#v2.0.1",
+    "devkit-flurry": "https://github.com/gameclosure/flurry#v2.0.1"
+  },
+  "shortName": "demoAnalytics",
+  "studio": {
+    "domain": "gameclosure.com",
+    "name": "GameClosure"
+  },
+  "supportedOrientations": [
+    "portrait"
+  ],
+  "title": "demoAnalytics",
+  "ios": {
+    "ampKey": "YOUR_AMPLITUDE_KEY_HERE",
+    "ampKeyStaging": "YOUR_AMPLITUDE_STAGING_KEY_HERE",
+    "flurryKey": "YOUR_FLURRY_KEY_HERE"
+  },
+  "android": {
+    "ampKey": "YOUR_AMPLITUDE_KEY_HERE",
+    "ampKeyStaging": "YOUR_AMPLITUDE_STAGING_KEY_HERE",
+    "flurryKey": "YOUR_FLURRY_KEY_HERE"
+  }
+}
