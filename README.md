@@ -9,6 +9,7 @@ The list of included modules:
 
 - [amplitude](https://github.com/gameclosure/amplitude)
 - [flurry](https://github.com/gameclosure/flurry)
+- [mixpanel](https://github.com/gameclosure/mixpanel)
 
 
 ##Prerequisites:

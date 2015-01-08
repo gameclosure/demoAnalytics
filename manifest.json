@@ -3,7 +3,8 @@
   "dependencies": {
     "devkit-core": "https://github.com/gameclosure/devkit-core#v2.0.13",
     "devkit-amplitude": "https://github.com/gameclosure/amplitude#v2.0.1",
-    "devkit-flurry": "https://github.com/gameclosure/flurry#v2.0.1"
+    "devkit-flurry": "https://github.com/gameclosure/flurry#v2.0.1",
+    "devkit-mixpanel": "https://github.com/gameclosure/mixpanel#v2.0.0"
   },
   "shortName": "demoAnalytics",
   "studio": {
@@ -15,13 +16,15 @@
   ],
   "title": "demoAnalytics",
   "ios": {
-    "ampKey": "YOUR_AMPLITUDE_KEY_HERE",
-    "ampKeyStaging": "YOUR_AMPLITUDE_STAGING_KEY_HERE",
-    "flurryKey": "YOUR_FLURRY_KEY_HERE"
+    "ampKey": "17210e01ca80cdf350a4569c6f099590",
+    "ampKeyStaging": "17210e01ca80cdf350a4569c6f099590",
+    "flurryKey": "KR37SBYKGVGCHBSSK73R",
+    "mixpanelToken": "b2006b7bd40215b09ae8e21e7823cbbf"
   },
   "android": {
-    "ampKey": "YOUR_AMPLITUDE_KEY_HERE",
-    "ampKeyStaging": "YOUR_AMPLITUDE_STAGING_KEY_HERE",
-    "flurryKey": "YOUR_FLURRY_KEY_HERE"
+    "ampKey": "17210e01ca80cdf350a4569c6f099590",
+    "ampKeyStaging": "17210e01ca80cdf350a4569c6f099590",
+    "flurryKey": "66HF4JSKSNZSVVZYTYSS",
+    "mixpanelToken": "b2006b7bd40215b09ae8e21e7823cbbf"
   }
 }

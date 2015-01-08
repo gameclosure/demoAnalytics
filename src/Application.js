@@ -11,6 +11,7 @@ import device;
 
 import amplitude;
 import flurry;
+import mixpanel;
 
 
 exports = Class(GC.Application, function () {
@@ -20,7 +21,8 @@ exports = Class(GC.Application, function () {
     this.platformList = [ {name: 'amplitude'} ];
     this.platformList = [
       'amplitude',
-      'flurry'
+      'flurry',
+      'mixpanel'
     ];
     this.platforms = {};
 
@@ -119,6 +121,9 @@ exports = Class(GC.Application, function () {
 
     // flurry
     this.platforms.flurry && flurry.setUserId(userId);
+
+    // mixpanel
+    this.platforms.mixpanel && mixpanel.setUserId(userId);
   };
 
   this.trackEvent = function () {
@@ -136,6 +141,9 @@ exports = Class(GC.Application, function () {
 
     // flurry
     this.platforms.flurry && flurry.trackEvent(eventName, eventData);
+
+    // mixpanel
+    this.platforms.mixpanel && mixpanel.trackEvent(eventName, eventData);
   };
 
   this.trackPurchase = function () {
@@ -158,6 +166,9 @@ exports = Class(GC.Application, function () {
 
     // flurry
     this.platforms.flurry && flurry.trackEvent('purchase', eventPayload);
+
+    // mixpanel
+    this.platforms.mixpanel && mixpanel.trackEvent('purchase', eventPayload);
   };
 
   this.getActivePlatforms = function () {
